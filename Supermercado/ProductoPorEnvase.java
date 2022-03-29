@@ -19,6 +19,7 @@ public class ProductoPorEnvase extends Producto{
         this.cantidad = nuevaCantidad;
     }
 
+    // Post: sobrescribe el método para dar la información sobre el producto según se pide
     @Override
     public String toString() {
         return "Nombre: " + this.getNombre() + " /// " + this.getCantidad() + " /// Precio: $" + this.getPrecio();

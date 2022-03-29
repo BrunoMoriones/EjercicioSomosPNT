@@ -30,6 +30,7 @@ public abstract class Producto implements Comparable<Producto>{
         precio = nuevoPrecio;
     }
 
+    // Post: sobrescribe el método para poder comparar los productos por el precio
     @Override
     public int compareTo(Producto otroProducto){
         return this.getPrecio() - otroProducto.getPrecio();
